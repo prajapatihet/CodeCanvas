@@ -1,0 +1,288 @@
+.circle-3-signup-login {
+  height: 5%;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  background-color: rgb(14, 13, 13);
+  background-image: none;
+  color: rgb(0, 0, 0);
+  font-size: 7px;
+  line-height: 10px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-3-signup-login-container > h2 {
+  text-align: center;
+  font-family: "Gothic A1";
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 34px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+.circle-3-signup-login-button {
+  display: flex;
+  width: auto;
+  margin-top: 5vh;
+  padding-right: 0px;
+  padding-left: 0px;
+  justify-content: center;
+}
+
+.circle-3-signup-button,
+.circle-3-login-button {
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 10px;
+  padding: 5px 25px;
+  border-radius: 20px;
+  background-color: #b12eb1;
+  color: white;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.circle-3-signup-login-button > a {
+  text-decoration: none;
+}
+
+/* circle - 4 */
+.circle-4-community {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: radial-gradient(
+      circle at 100% 0%,
+      rgb(18, 1, 17),
+      rgb(18, 1, 17) 4%,
+      rgb(28, 2, 26) 17%,
+      rgb(34, 2, 32) 34%,
+      rgb(47, 3, 45) 51%,
+      rgb(55, 5, 52) 69%,
+      rgb(28, 2, 26) 85%,
+      rgb(18, 1, 17)
+    ),
+    linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+}
+
+.circle-4-community-holder {
+  max-width: 700px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.circle-4-community-holder > h2 {
+  text-align: center;
+  font-family: "Gothic A1";
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 34px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+.circle-4-community-holder > p {
+  font-family: "Gothic A1";
+  opacity: 50%;
+  color: white;
+  font-size: 1.5vh;
+  line-height: 1.5px;
+  margin-bottom: 2vh;
+}
+
+.circle-4-community-form {
+  margin-left: 10px;
+  margin-right: 3px;
+  display: flex;
+}
+
+.circle-4-community-form-input {
+  display: block;
+  width: 100%;
+  height: 38px;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 50px;
+}
+
+.circle-4-community-form-button {
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 10px;
+  padding: 0px 20px;
+  border-radius: 20px;
+  background-color: #b12eb1;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.circle-4-community-form-success-text {
+  display: none;
+}
+
+.circle-4-community-form-fail-text {
+  display: none;
+}
+
+/* footer */
+.circle-4-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(4, 4, 4);
+}
+
+.circle-4-footer-holder {
+  max-width: 700px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.circle-4-footer-links {
+  padding-top: 29px;
+  padding-bottom: 29px;
+}
+
+.circle-4-footer-link {
+  font-family: "Gothic A1";
+  margin-right: 15px;
+  margin-left: 15px;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+/* Accordin */
+.container {
+  background-color: #000;
+  color: azure;
+  margin: 0 auto;
+  padding: 4rem;
+  width: 0 auto;
+}
+
+.accordion .accordion-item {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion .accordion-item button[aria-expanded="true"] {
+  border-bottom: 1px solid white;
+}
+
+.accordion button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 1em 0;
+  color: white;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.accordion button:hover,
+.accordion button:focus {
+  cursor: pointer;
+  color: white;
+}
+
+.accordion button:hover::after,
+.accordion button:focus::after {
+  cursor: pointer;
+  color: white;
+  border: 1px solid white;
+}
+
+.accordion button .accordion-title {
+  padding: 1em 1.5em 1em 0;
+}
+
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+}
+
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+
+.accordion button[aria-expanded="true"] {
+  color: white;
+}
+
+.accordion button[aria-expanded="true"] .icon::after {
+  width: 0;
+}
+
+.accordion button[aria-expanded="true"] + .accordion-content {
+  opacity: 1;
+  max-height: 9em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+
+.accordion .accordion-content p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 2em 0;
+}
+
+.copyright {
+  font-size: 18px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  font-weight: 700;
+}

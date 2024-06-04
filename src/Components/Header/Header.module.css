@@ -1,0 +1,255 @@
+.circle-1 {
+  height: 100vh;
+  background-image: radial-gradient(
+    circle at 100% 100%,
+    rgb(66, 6, 68) 14%,
+    rgb(77, 11, 77) 16%,
+    rgb(198, 74, 193) 39%,
+    rgb(204, 126, 214) 41%,
+    rgb(84, 51, 88) 51%,
+    rgb(0, 0, 0) 63%,
+    rgb(28, 7, 30) 73%,
+    rgb(0, 0, 0) 75%,
+    rgb(22, 6, 24) 89%,
+    rgb(0, 0, 0) 90%,
+    rgb(30, 7, 30) 99%,
+    rgb(0, 0, 0) 99%
+  );
+}
+
+.circle-1-content {
+  padding-right: 10vw;
+  padding-left: 10vw;
+  height: 20vh;
+}
+
+.circle-1-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.circle-1-nav-menu {
+  display: flex;
+}
+
+/* CodeCanvas-Logo */
+.circle-1-nav > img {
+  margin-top: 20px;
+  max-width: 100%;
+  width: 266px;
+  display: inline-block;
+}
+
+.circle-1-nav-menu-options {
+  height: 20px;
+  display: block;
+}
+
+/* navbar links not dropdown */
+.circle-1-nav-menu-options > a {
+  color: white;
+  padding-top: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  display: inline-block;
+  font-family: "Gothic A1";
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.circle-1-nav-menu-button {
+  display: flex;
+}
+
+.circle-1-nav-menu-button-logo {
+  padding-top: 40px;
+  padding-bottom: 5px;
+  margin-left: 5px;
+  display: none;
+}
+
+.circle-1-nav-dropdown-menu {
+  position: absolute;
+  right: 10px;
+  text-align: right;
+  display: none;
+  padding-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-family: "Gothic A1";
+  font-weight: 200;
+}
+
+.circle-1-nav-dropdown-menu > a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+/* hovering over the button */
+.drop-link:hover + .circle-1-nav-dropdown-menu {
+  display: block;
+}
+
+.circle-1-main-content {
+  display: flex;
+}
+
+.circle-1-main-content-text {
+  padding-left: 10vw;
+  padding-right: 10vh;
+  margin-top: 8vh;
+}
+
+.circle-1-main-content-text-up {
+  color: white;
+  font-family: "Gothic A1";
+  font-size: 9vh;
+  font-weight: 700;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.circle-1-main-content-text-down {
+  color: white;
+  font-family: "Gothic A1";
+  display: block;
+  font-size: 3.8vh;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.circle-1-main-content-text > a {
+  color: white;
+  background-color: #b12eb1;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 5px;
+  border-radius: 20px;
+  font-family: "Gothic A1";
+  font-weight: 400;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.circle-1-main-content > img {
+  margin-top: 14vh;
+}
+
+/* Tablet size */
+@media screen and (max-width: 900px) {
+  .circle-1-content {
+    padding-right: 5vw;
+    padding-left: 5vw;
+    height: 15vh;
+  }
+
+  .circle-1-nav > img {
+    margin-top: 20px;
+    max-width: 100%;
+    width: 200px;
+    display: inline-block;
+  }
+
+  .circle-1-main-content-text {
+    padding-left: 5vw;
+    padding-right: 5vh;
+  }
+
+  .circle-1-main-content-text-up {
+    font-size: 6vh;
+  }
+
+  .circle-1-main-content-text-down {
+    font-size: 2.8vh;
+  }
+
+  .circle-1-main-content-text > a {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 5px;
+    border-radius: 20px;
+    font-family: "Gothic A1";
+    font-weight: 400;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+  #components {
+    display: none;
+  }
+
+  #pricing {
+    display: none;
+  }
+
+  .circle-1-main-content > img {
+    display: none;
+  }
+
+  .circle-1-main-content {
+    display: block;
+  }
+
+  .circle-1-nav-menu-button-logo {
+    display: block;
+  }
+}
+
+@media screen and (max-height: 650px) {
+  .circle-1-main-content > img {
+    display: none;
+  }
+}
+
+/* mobile size */
+@media screen and (max-width: 475px) {
+  #Dashboard {
+    display: none;
+  }
+
+  .circle-3-main-right {
+    display: flex;
+    width: 90vw;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding-right: 2%;
+    padding-left: 2%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-style: none;
+    border-width: 1px;
+    margin-right: 10%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #about {
+    display: none;
+  }
+
+  .circle-1-content {
+    padding-right: 5vw;
+    height: 10vh;
+  }
+
+  .circle-1-main-content > img {
+    display: none;
+  }
+
+  .circle-1-main-content {
+    display: block;
+  }
+}

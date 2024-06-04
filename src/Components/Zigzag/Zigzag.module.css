@@ -1,0 +1,348 @@
+.circle-3 {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* Circle 3 gradient */
+  background-image: radial-gradient(
+      circle at 100% 0%,
+      rgb(18, 1, 17),
+      rgb(18, 1, 17) 4%,
+      rgb(28, 2, 26) 17%,
+      rgb(34, 2, 32) 34%,
+      rgb(47, 3, 45) 51%,
+      rgb(55, 5, 52) 69%,
+      rgb(28, 2, 26) 85%,
+      rgb(18, 1, 17)
+    ),
+    linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+}
+
+.circle-3-main {
+  display: flex;
+  width: 90vw;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding-right: 2%;
+  padding-left: 2%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-style: none;
+  border-width: 1px;
+}
+
+.circle-3-main-right {
+  display: flex;
+  width: 90vw;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding-right: 2%;
+  padding-left: 2%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-style: none;
+  border-width: 1px;
+}
+
+.circle-3-main-content {
+  width: 50%;
+  max-width: 450px;
+  padding-right: 2%;
+  padding-left: 2%;
+  flex: 0 0 auto;
+  border-style: none;
+  border-width: 1px;
+}
+
+.circle-3-main-content-text-top {
+  font-family: "Gothic A1";
+  display: inline-block;
+  padding-bottom: 5px;
+  color: white;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0.5;
+  font-weight: 400;
+}
+
+.circle-3-main-content-text-middle {
+  font-family: "Gothic A1";
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 700;
+  display: block;
+}
+
+.circle-3-main-content-text-bottom {
+  font-family: "Gothic A1";
+  margin-bottom: 10px;
+  color: rgb(107, 107, 107);
+  font-size: 16px;
+  line-height: 30px;
+  display: block;
+}
+
+.circle-3-main-content-image-holder {
+  display: flex;
+  width: 50vw;
+  justify-content: center;
+  align-items: center;
+  border-width: 1px;
+}
+
+.circle-3-main-content-image-holder > img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  flex: 0 0 auto;
+}
+
+/* support icons */
+.circle-3-main-support-images {
+  justify-content: space-between;
+  display: flex;
+  width: 90%;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  flex-direction: row;
+  align-items: center;
+  border-width: 1px;
+}
+
+.circle-3-main-support-images-holder {
+  display: flex;
+  width: 33.33%;
+  padding-right: 30px;
+  padding-left: 30px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 0 0 auto;
+  border-width: 1px;
+}
+
+.circle-3-main-support-images-holder > img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  height: 35px;
+  margin-bottom: 30px;
+  width: 80px;
+}
+
+.circle-3-main-support-images-holder > h4 {
+  font-family: "Gothic A1";
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+}
+
+.circle-3-main-support-images-holder > p {
+  font-family: "Gothic A1";
+  margin-bottom: 10px;
+  color: rgb(107, 107, 107);
+  font-size: 16px;
+  line-height: 30px;
+  display: block;
+}
+
+@media screen and (max-width: 640px) {
+  .circle-3-main-support-images-holder > h4 {
+    font-family: "Gothic A1";
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 3.8vw;
+    line-height: 3.8vw;
+    font-weight: 400;
+  }
+}
+
+/* stats */
+.circle-3-main-stats-images {
+  justify-content: space-between;
+  display: flex;
+  width: 90%;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  flex-direction: row;
+  align-items: center;
+  border-width: 1px;
+}
+
+.circle-3-main-stats-images-holder {
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 0 0 auto;
+  border-width: 1px;
+}
+
+.circle-3-main-stats-images-number {
+  font-family: "Gothic A1";
+  color: white;
+  font-size: 60px;
+  line-height: 90px;
+}
+
+.circle-3-main-stats-images-holder > h4 {
+  font-family: "Gothic A1";
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 640px) {
+  .circle-3-main-stats-images-number {
+    font-family: "Gothic A1";
+    color: white;
+    font-size: 6.8vw;
+    line-height: 4vw;
+  }
+
+  .circle-3-main-stats-images-holder > h4 {
+    font-family: "Gothic A1";
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 3.8vw;
+    line-height: 3.8vw;
+    font-weight: 400;
+  }
+}
+
+/* features */
+.circle-3-main-features {
+  display: flex;
+  width: 100%;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-width: 1px;
+}
+
+.circle-3-main-features-text {
+  width: 50vw;
+  max-width: 450px;
+  padding-right: 4vw;
+  padding-left: 4vw;
+  flex: 0 0 auto;
+  border-width: 1px;
+}
+
+.circle-3-main-features-image {
+  display: flex;
+  width: 50vw;
+  justify-content: center;
+  align-items: center;
+  border-width: 1px;
+}
+
+.circle-3 img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.circle-3-main-features-text-up {
+  font-family: "Gothic A1";
+  display: inline-block;
+  padding-bottom: 5px;
+  color: rgb(216, 216, 216);
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.circle-3 h2 {
+  font-family: "Gothic A1";
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+.circle-3 p {
+  font-family: "Gothic A1";
+  margin-bottom: 10px;
+  color: rgb(107, 107, 107);
+  font-size: 16px;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 900px) {
+  .circle-3-main-features-text-up {
+    font-family: "Gothic A1";
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    padding-bottom: 2%;
+    font-weight: 400;
+    color: white;
+    margin-top: 20%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .circle-3-main-features-text-up {
+    font-family: "Gothic A1";
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 1px none rgb(46, 46, 46);
+    color: rgb(216, 216, 216);
+    font-size: 1.8vw;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .circle-3 h2 {
+    font-family: "Gothic A1";
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 5vw;
+    line-height: 5.8vw;
+    font-weight: 700;
+  }
+
+  .circle-3 p {
+    font-family: "Gothic A1";
+    margin-bottom: 10px;
+    color: rgb(107, 107, 107);
+    font-size: 2.4vw;
+    line-height: 3.5vw;
+  }
+}
